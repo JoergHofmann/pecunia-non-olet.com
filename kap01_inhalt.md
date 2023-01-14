@@ -1,6 +1,7 @@
 ---
+title: "Inhalt"
 menuTitle: "Inhalt"
-weight: 11
+weight: 7
 chapter: false
 draft: false
 ---

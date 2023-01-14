@@ -1,6 +1,7 @@
 ---
+title: "Vorstellung"
 menuTitle: "Vorstellung"
-weight: 10
+weight: 6
 chapter: false
 draft: false
 ---

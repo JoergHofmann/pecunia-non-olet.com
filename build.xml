@@ -20,6 +20,9 @@
 			<fileset dir="bilder" includes="*.png" />
 			<fileset dir="bilder" includes="*.svg" />
 		</copy>
+	    <copy todir="0_HUGO/static" overwrite="true">
+			<fileset dir="." includes="*.html" />
+		</copy>
 	</target>
 
 	<target name="hugo" depends="prepare" unless="done">
@@ -38,6 +41,18 @@
 		<arg line="-o" />
 		<targetfile />
 		<fileset dir="." includes="kap01*.md" excludes="kap01.md" />
+		<mapper type="glob" from="*.md" to="*.pdc" />
+	    </apply>
+	    <mkdir dir = "0_HUGO/content/kap02" />
+	    <exec executable="upp" output="0_HUGO/content/kap02/_index.pdc" logError="true">
+		<arg line="-l hugo.lua kap02.md" />
+	    </exec>
+	    <apply executable="upp" dest="0_HUGO/content/kap02/" logError="true">
+		<arg line="-l hugo.lua" />
+		<srcfile />
+		<arg line="-o" />
+		<targetfile />
+		<fileset dir="." includes="kap02*.md" excludes="kap02.md" />
 		<mapper type="glob" from="*.md" to="*.pdc" />
 	    </apply>
 	    <property name="done" value="done" />
