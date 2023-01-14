@@ -5,6 +5,14 @@ chapter: false
 weight: 21
 ---
 
+:(Autor['mail']="joerg.hofmann@pecunia-non-olet.com")
+:(Jahr = 2021)
+:(Vorjahr = Jahr - 1)
+
+:(AoUmsatz = '600.000€')
+:(AoGewinn = '60.000€')
+
+
 ## Einführung
 
 ### Vorab ein paar Worte zur Motivation ...
@@ -114,6 +122,6 @@ Art der Besteuerung:        $(Projekt.DieseFirma.ustbesteuerung)
 
  \
 
-Erstes Buchungsjahr:        $(Projekt.DieseFirma.jahr)
+Erstes Buchungsjahr:        $(Jahr)
 -------------------------   --------------------------------
 

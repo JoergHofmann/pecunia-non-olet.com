@@ -5,7 +5,6 @@ chapter: false
 weight: 22
 ---
 
-
 ## Inventur und Inventar
 
 ### Inventur
