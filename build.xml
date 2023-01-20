@@ -27,6 +27,9 @@
 
 	<target name="hugo" depends="prepare" unless="done">
 	    <antcall target="copy4hugo" />
+	    <exec executable="upp" output="0_HUGO/layouts/partials/menu-footer.html" logError="true">
+		<arg line="-l hugo.lua menu-footer.html" />
+	    </exec>
 	    <echo message='upp titelseite'/>
 	    <exec executable="upp" output="0_HUGO/content/_index.pdc" logError="true">
 		<arg line="-l hugo.lua titelseite.md" />

@@ -4,8 +4,10 @@ title: pecunia-non-olet.com
 theme: hugo-theme-learn
 params:
     themeVariant: green
-disableLandingPage: true
-disableLandingPageButton: true
+    disableLandingPage: true
+    disableLandingPageButton: false
+    showVisitedLinks: true
+    author: "Jörg Hofmann"
 security:
   enableInlineShortcodes: false
   exec:

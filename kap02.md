@@ -9,3 +9,5 @@ weight: 20
 # Grundlagen der Buchführung
 
 Einführung in die doppelte Buchführung.
+
+![](/images/buchfuehrung-zuschnitt.png)

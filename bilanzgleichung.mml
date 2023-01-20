@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd columnalign="right">
+     <mtext>Vermögen</mtext>
+    </mtd>
+    <mtd>
+     <mtext>=</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Kapital</mtext>
+    </mtd>
+    <mtd>
+     <mrow/>
+    </mtd>
+    <mtd>
+     <mrow/>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd columnalign="right">
+     <mtext>Vermögen</mtext>
+    </mtd>
+    <mtd>
+     <mtext>=</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Eigenkapital</mtext>
+    </mtd>
+    <mtd>
+     <mtext>+</mtext>
+    </mtd>
+    <mtd>
+     <mtext>Fremdkapital</mtext>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>Eigenkapital</mtext>
+    </mtd>
+    <mtd>
+     <mtext>=</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Vermögen</mtext>
+    </mtd>
+    <mtd>
+     <mtext>-</mtext>
+    </mtd>
+    <mtd>
+     <mtext>Fremdkapital</mtext>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">matrix {alignr &quot;Vermögen&quot; # &quot;=&quot; # alignl &quot;Kapital&quot;  #{}#{}##
+alignr &quot;Vermögen&quot; # &quot;=&quot; # alignl &quot;Eigenkapital&quot; # &quot;+&quot; # &quot;Fremdkapital&quot; ##
+&quot;Eigenkapital&quot; # &quot;=&quot; # alignl &quot;Vermögen&quot; # &quot;-&quot; # &quot;Fremdkapital&quot;}</annotation>
+ </semantics>
+</math>

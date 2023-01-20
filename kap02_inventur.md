@@ -65,3 +65,108 @@ Die *Schulden* werden nach ihrer Fälligkeit geordnet. Man unterscheidet lang- u
 
 Das *Reinvermögen* ist die Differenz aus Vermögen und Schulden. Es ist der wertmäßige Anteil der Inhaberin am Betriebsvermögen.
 
+### Erfolgsermittlung durch EK-Vergleich
+
+Der Gewinn bzw.~Verlust eines Geschäftsjahres ist die Mehrung bzw.~Minderung seines Eigenkapitals.
+
+Erfolg = EK~neu~ - EK~alt~
+
+Beispiel: Das Inventar eines Lebensmittelhändlers weist zum 31.12. ein Reinvermögen von $(eur "80.000,00") und zum 31.12. des folgenden Jahres ein Reinvermögen von$(eur "82.500,00") aus.
+
+Erfolg = $(eur "82.500,00") - $(eur "80.000,00")  = $(eur "2.500,00")
+
+Da aber Privatentnahmen bzw. -einlagen das Eigenkapital ebenfalls verändern, müssen sie entsprechend berücksichtigt werden, denn es soll nur der Erfolg der Geschäftstätigkeit bestimmt werden.
+
+
+Beispiel: Unser Lebensmittelhändler hat jeden Monat $(eur "3.000,00") für seine eigene
+Lebenshaltung entnommen. Hätte er dies nicht getan, z.B. weil
+seine Frau über ein entsprechendes Einkommen verfügt, wäre das
+Reinvermögen im Folgejahr und damit auch der Gewinn um $(eur "36.000,00") höher.
+Während eines Geschäftsjahres vorgenommene *Entnahmen* müssen also zu dem
+Reinvermögen *hinzugezählt* werden.
+
+Außerdem hat er von einer kleinen Erbschaft einen gebrauchten Lieferwagen für den Betrieb gekauft. Der Preis $(28.500,00). Wäre dieser Betrag mit
+betrieblichen Mitteln bezahlt worden, wäre das Reinvermögen entsprechend
+niedriger. Während eines Geschäftsjahres vorgenommene *Einlagen* müssen also von dem Reinvermögen *abgezogen* werden.
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+    <mtd>
+     <msub>
+      <mtext>Eigenkapital</mtext>
+      <mtext>neu</mtext>
+     </msub>
+    </mtd>
+    <mtd>
+     <mn>82.500,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>-</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <msub>
+      <mtext>Eigenkapital</mtext>
+      <mtext>alt</mtext>
+     </msub>
+    </mtd>
+    <mtd>
+     <mn>80.000,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>+</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Entnahmen</mtext>
+    </mtd>
+    <mtd>
+     <mn>36.000,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>-</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Einlagen</mtext>
+    </mtd>
+    <mtd>
+     <mn>28.500,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>=</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Erfolg</mtext>
+    </mtd>
+    <mtd>
+     <mn>10.000,00</mn>
+    </mtd>
+   </mtr>
+  </mtable>
+ </semantics>
+</math>
+
+
+
+Dies ist auch der steuerliche Gewinnbegriff, der im Einkommenssteuergesetz (EStG)
+festgelegt wird.
+
+
+>§4, 1 Der Gewinn im allgemeinen.$(br)
+Gewinn ist der Unterschiedsbetrag zwischen dem Betriebsvermögen am
+Schluß des Wirtschaftsjahres und dem Betriebsvermögen am Schluß des
+Vorangegangen Wirtschaftsjahres, vermehrt um den Wert der Entnahmen und
+vermindert um den Wert der Einlagen.
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow/>
+    </mtd>
+    <mtd>
+     <msub>
+      <mtext>Eigenkapital</mtext>
+      <mtext>neu</mtext>
+     </msub>
+    </mtd>
+    <mtd>
+     <mn>82.500,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>-</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <msub>
+      <mtext>Eigenkapital</mtext>
+      <mtext>alt</mtext>
+     </msub>
+    </mtd>
+    <mtd>
+     <mn>80.000,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>+</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Entnahmen</mtext>
+    </mtd>
+    <mtd>
+     <mn>36.000,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>-</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Einlagen</mtext>
+    </mtd>
+    <mtd>
+     <mn>28.500,00</mn>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mtext>=</mtext>
+    </mtd>
+    <mtd columnalign="left">
+     <mtext>Erfolg</mtext>
+    </mtd>
+    <mtd>
+     <mn>10.000,00</mn>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">matrix{{} # &quot;Eigenkapital&quot;_&quot;neu&quot; # 82.500,00##
+&quot;-&quot; # alignl &quot;Eigenkapital&quot;_&quot;alt&quot; # 80.000,00 ##
+&quot;+&quot; # alignl &quot;Entnahmen&quot; # 36.000,00 ##
+&quot;-&quot; # alignl &quot;Einlagen&quot; # 28.500,00 ## 
+&quot;=&quot; # alignl &quot;Erfolg&quot; # 10.000,00}
+</annotation>
+ </semantics>
+</math>

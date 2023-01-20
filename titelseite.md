@@ -3,8 +3,6 @@ title: $(Projekt.title)
 menuTitle: $(Projekt.shorttitle)
 chapter: true
 weight: 5
-date: '$(Monat[heute.month].MMMM) $(heute.year)'
-git: $(GetShortGITHash "")
 ---
 
 # $(Projekt.title)
@@ -14,7 +12,8 @@ git: $(GetShortGITHash "")
 Auf dieser Seite möchte ich kaufmännisches Grundwissen zusammentragen, wie es zum Beispiel in
 den Prüfungen zu den kaufmännischen Ausbildungsberufen verlangt wird.
 
-$(date)$(br)$(br)$(git)
+Stand: $(Monat[heute.month].MMMM) $(heute.year)$(br)$(br)
+Git: $(GetShortGITHash "")$(br)
 
 
 
