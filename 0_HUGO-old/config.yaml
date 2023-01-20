@@ -1,0 +1,31 @@
+baseURL: http://pecunia-non-olet.com/
+languageCode: de-DE
+title: pecunia-non-olet.com
+theme: hugo-theme-learn
+params:
+    themeVariant: green
+    disableLandingPage: true
+    disableLandingPageButton: false
+    showVisitedLinks: true
+    author: "Jörg Hofmann"
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+    - ^dart-sass-embedded$
+    - ^go$
+    - ^npx$
+    - ^postcss$
+    - ^pandoc$
+    osEnv:
+    - (?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$
+  funcs:
+    getenv:
+    - ^HUGO_
+    - ^CI$
+  http:
+    methods:
+    - (?i)GET|POST
+    urls:
+    - .*
+
