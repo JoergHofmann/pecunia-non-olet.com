@@ -2,7 +2,7 @@
 title: "Bilanz"
 menuTitle: "Bilanz"
 chapter: false
-weight: 23
+weight: 93
 ---
 
 ## Bilanz

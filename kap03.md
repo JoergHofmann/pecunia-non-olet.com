@@ -1,12 +1,10 @@
 ---
-title: "Volkswirtschaftslehre"
+title: "Bürgerliches Recht"
+menutitle: "BGB"
 chapter: true
-weight: 40
+weight: 30
 ---
 
-### Kapitel 3 
+### Kapitel 3
 
-# Volkswirtschaftslehre
-Wirtschaftssubjekte und -objekte, Wirtschaftskreislauf, Wirtschaftspolitik, Märkte und Marktformen.
-
-![](/images/titelbild-vwl.png)
+# Bürgerliches Recht

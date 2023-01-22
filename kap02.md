@@ -1,13 +1,11 @@
 ---
-title: "Buchführung"
+title: "Kaufmännisches Rechnen"
+menutitle: "Rechnen"
 chapter: true
-weight: 20
+weight: 10
 ---
 
 ### Kapitel 2
 
-# Grundlagen der Buchführung
+# Kaufmännisches Rechnen
 
-Einführung in die doppelte Buchführung.
-
-![](/images/buchfuehrung-zuschnitt.png)
