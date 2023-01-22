@@ -58,6 +58,18 @@
 		<fileset dir="." includes="kap02*.md" excludes="kap02.md" />
 		<mapper type="glob" from="*.md" to="*.pdc" />
 	    </apply>
+	    <mkdir dir = "0_HUGO/content/kap03" />
+	    <exec executable="upp" output="0_HUGO/content/kap03/_index.pdc" logError="true">
+		<arg line="-l hugo.lua kap03.md" />
+	    </exec>
+	    <apply executable="upp" dest="0_HUGO/content/kap03/" logError="true">
+		<arg line="-l hugo.lua" />
+		<srcfile />
+		<arg line="-o" />
+		<targetfile />
+		<fileset dir="." includes="kap03*.md" excludes="kap03.md" />
+		<mapper type="glob" from="*.md" to="*.pdc" />
+	    </apply>
 	    <property name="done" value="done" />
 	</target>
 
